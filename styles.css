@@ -1,0 +1,372 @@
+*{
+  margin: 0;
+}
+.image{
+  height: 700px;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 35px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  background-color: lightcyan;
+  font-weight: bold;
+  margin-left: 120px;
+  font-size: 30px;
+  padding: 4px 4px;
+  position: absolute;
+  bottom: 8px;
+  width: 400px;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Style the navigation bar */
+.navbar {
+  margin-top: 0;
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: darkblue;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #04AA6D;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.logo> img{
+  border-radius: 100%;
+  border: solid 2.5px black;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 100px;
+  width: 100px;
+}
+.title{
+  margin-top: -100px;
+  margin-left: 40px;
+  font-size: 3.5rem;
+  color: dark;
+  font-weight: bold;
+  text-align: center;
+}
+.h3{
+  font-size: 3rem;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.home{
+  background-image: url('images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-text{
+  font-size: 2.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  padding-bottom: 7px;
+}
+.text-block{
+  padding-top: 10px;
+  font-size: 1.1rem;
+  font-family: Cambria;
+  font-weight: bold;
+  text-align: center;
+}
+.subtitle{
+  font-size: 1.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: blue;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.about{
+  background-color: cyan;
+  height: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.block1{
+  width: 350px;
+  margin: 2px 3px;
+  padding-top: 10px;
+  
+}
+.block2{
+  width: 350px;
+  margin: 3px 3px;
+  padding-top: 10px;
+  
+}
+
+/*css styles for contact page*/
+.container1 p {
+color: rgb(136, 136, 136);
+letter-spacing: 0.4px;
+}
+
+.container1 form {
+width: 100%;
+}
+
+.container1 .input-area {
+position: relative;
+margin: 10px 0;
+height: 44px;
+width: 100%;
+}
+
+.container1 .h-80 {
+height: 80px;
+}
+
+.container1 input, .container textarea {
+position: absolute;
+display: block;
+font-family: "Poppins", sans-serif;
+font-size: 14px;
+padding: 12px;
+height: 100%;
+width: 100%;
+border: 1px solid #999;
+border-radius: 4px;
+outline: none;
+resize: none;
+}
+
+.container1 .sendbtn {
+display: block;
+width: 100%;
+background: #660033;
+color: #fff;
+font-size: 18px;
+padding: 11px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.container1 .sendbtn:hover {
+background-color: #993366;
+}
+
+
+
+.social-container {
+position: fixed;
+right: 0;
+bottom: 40px;
+transform: translateX(100%);
+transition: transform 0.4s ease-in-out;
+z-index: 10;
+}
+
+.social-container {
+transform: translateX(-10px);
+}
+
+.custom-social-container {  
+background-color: #fff;
+border-radius: 16px;
+box-shadow: 0 16px 31px -17px rgba(248, 4, 77, 0.6);
+border: 5px solid #660033;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: "Poppins", sans-serif;
+position: relative;
+height: 169px;  
+width: 370px;
+max-width: calc(100% - 10px);
+}
+
+.custom-social-container button.cross-btn {
+border: 0;
+color: #660033;
+cursor: pointer;
+font-size: 20px;
+position: absolute;
+top: 5px;
+right: 5px;
+}
+
+.custom-social-container p {
+background-color: #660033;
+border-radius: 0 0 10px 10px;
+color: #fff;
+font-size: 14px;
+line-height: 28px;
+padding: 2px 17px 6px;
+position: absolute;
+top: 0;
+left: 50%;
+margin: 0;
+transform: translateX(-50%);
+text-align: center;
+width: 215px;
+}
+
+.custom-social-container ul {
+display: flex;
+list-style-type: none;
+padding: 0;
+margin-top: 58px;
+}
+
+.custom-social-container ul li {
+margin: 0 10px;
+}
+
+.custom-social-container ul li a {
+border: 1px solid #999;
+border-radius: 50%;
+color: #660033;
+font-size: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50px;
+width: 50px;
+text-decoration: none;
+}
+
+.custom-social-container ul li a:hover {
+border-color: #ffd791;
+box-shadow: 0 9px 12px -9px #ffd791;
+}
+
+.connect-btn {
+border-radius: 26.5px;
+background-color: #660033;
+border: 1px solid #660033;
+box-shadow: 0 16px 22px -17px #660033;
+color: #fff;
+cursor: pointer;
+font-size: 16px;
+line-height: 20px;
+padding: 12px 20px;
+position: fixed;
+bottom: 20px;
+right: 20px;
+z-index: 999;
+}
+
+.connect-btn:hover {
+background-color: #993366;
+}
+#contact{
+background: #E6E6FA;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Poppins", sans-serif;
+min-height: 100vh;
+}
