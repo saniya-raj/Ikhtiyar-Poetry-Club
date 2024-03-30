@@ -416,4 +416,19 @@
   .container1 .sendbtn{
     width: 300px;
   }
+  .text {
+   
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 4px 4px;
+    
+    
+    width: 250px;
+    
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 }
