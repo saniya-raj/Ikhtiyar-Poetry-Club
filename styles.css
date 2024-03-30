@@ -381,8 +381,8 @@
 #contact {
   background-image: url('https://media.istockphoto.com/id/1397455933/photo/top-view-with-register-now-text-in-notebook-pencil-keyboard-and-coffee-on-wood-table.jpg?s=612x612&w=0&k=20&c=bUBEkkNrKZBKC3IByYFxSmb4dAFOgJYt-2-c8mJgkzA=');
   background-size: cover;
-  padding-left: 650px;
-  padding-right: 650px;
+  padding-left: 150px;
+  padding-right: 150px;
   padding-top: 400px;
   padding-bottom: 300px;
   font-family: "Poppins", sans-serif;
@@ -390,7 +390,7 @@
 }
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   
   .navbar a {
     float: none;
