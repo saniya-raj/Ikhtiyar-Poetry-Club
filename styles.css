@@ -416,6 +416,12 @@
   .container1 .sendbtn{
     width: 300px;
   }
+  .container1 form{
+  width: 200px;
+}
+  .container1 input-area{
+    width: 200px;
+  }
   .text {
    
     margin-left: 10px;
