@@ -213,7 +213,7 @@ letter-spacing: 0.4px;
 }
 
 .container1 form {
-width: 100%;
+width: 50%;
 }
 
 .container1 .input-area {
@@ -227,7 +227,7 @@ width: 100%;
 height: 80px;
 }
 
-.container1 input, .container textarea {
+.container1 input{
 position: absolute;
 display: block;
 font-family: "Poppins", sans-serif;
