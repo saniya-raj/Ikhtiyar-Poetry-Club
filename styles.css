@@ -220,7 +220,7 @@ width: 50%;
 position: relative;
 margin: 10px 0;
 height: 44px;
-width: 100%;
+width: 50%;
 }
 
 .container1 .h-80 {
@@ -243,7 +243,7 @@ resize: none;
 
 .container1 .sendbtn {
 display: block;
-width: 100%;
+width: 50%;
 background: #660033;
 color: #fff;
 font-size: 18px;
