@@ -213,19 +213,17 @@ letter-spacing: 0.4px;
 }
 
 .container1 form {
-width: 50%;
+width: 200px;
 }
 
 .container1 .input-area {
 position: relative;
 margin: 10px 0;
 height: 44px;
-width: 50%;
+width: 200px;
 }
 
-.container1 .h-80 {
-height: 80px;
-}
+
 
 .container1 input{
 position: absolute;
@@ -233,8 +231,8 @@ display: block;
 font-family: "Poppins", sans-serif;
 font-size: 14px;
 padding: 12px;
-height: 100%;
-width: 100%;
+height: 44px;
+width: 200px;
 border: 1px solid #999;
 border-radius: 4px;
 outline: none;
@@ -243,7 +241,7 @@ resize: none;
 
 .container1 .sendbtn {
 display: block;
-width: 50%;
+width: 200px;
 background: #660033;
 color: #fff;
 font-size: 18px;
